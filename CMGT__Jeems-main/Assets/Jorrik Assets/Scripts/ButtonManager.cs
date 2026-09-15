@@ -4,7 +4,6 @@ using UnityEngine.SceneManagement;
 
 public class ButtonManager : MonoBehaviour
 {
-
     // Update is called once per frame
     public void LoadDailyQuiz()
     {
@@ -27,4 +26,9 @@ public class ButtonManager : MonoBehaviour
         SceneManager.LoadScene("Organisatiekennis");
     }
 
+    
+    public void OpenLink(string url)
+    {
+        Application.OpenURL(url);
+    }
 }
