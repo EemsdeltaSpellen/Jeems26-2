@@ -2920,6 +2920,52 @@
       "isCompleted": false,
       "isFailed": false,
       "assignedDate": ""
-    }
-  ]
+    },
+    {
+      "questionType": 0,
+      "title": "Test vraag",
+      "questionText": "Is dit een vraag met meerdere keuzes?",
+      "multipleChoiceOptions": [
+        {
+          "answerText": "Nee",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Ik kan niet lezen",
+          "isCorrect": false
+        },
+        {
+          "answerText": "I don't understand dutch, help!",
+          "isCorrect": false
+        },
+        {
+          "answerText": "Ja",
+          "isCorrect": true
+        }
+      ],
+      "correctTrueFalseAnswer": false,
+      "checkmarkLabel": "I have completed this task",
+      "correctCheckmarkState": true,
+      "explanationWhenWrong": "Dit is een keuze vraag, grr",
+      "explanationWhenRight": "Correct! deze vraag heeft meerdere keuzes.",
+      "isCompleted": false,
+      "isFailed": false,
+      "assignedDate": ""
+
+    
+},
+      {
+        "questionType": 1,
+        "title": "waar of niet waar",
+        "questionText": "Waar of niet waar test.",
+        "multipleChoiceOptions": [],
+        "correctTrueFalseAnswer": false,
+        "checkmarkLabel": "I have completed this task",
+        "correctCheckmarkState": true,
+        "explanationWhenWrong": "Dit is een waar en niet waar vraag,grr.",
+        "isCompleted": false,
+        "isFailed": false,
+        "assignedDate": ""
+      }
+    ]
 }
