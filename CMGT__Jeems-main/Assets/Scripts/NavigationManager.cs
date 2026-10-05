@@ -2,9 +2,13 @@ using UnityEngine;
 
 public class NavigationManager : MonoBehaviour
 {
-    [Header("Panels & UI")]
-    public GameObject MainPanel;          // The main background panel
-    public GameObject buttonContainer;    // Create an empty object holding your 4 category buttons inside MainPanel
+    [Header("Main Menu Buttons")]
+    public GameObject chatButton;
+    public GameObject vergaderenButton;
+    public GameObject bestandenButton;
+    public GameObject outlookButton;
+
+    [Header("Detail Panels")]
     public GameObject chatPanel;
     public GameObject vergaderenPanel;
     public GameObject bestandenPanel;
@@ -12,59 +16,58 @@ public class NavigationManager : MonoBehaviour
 
     private void Start()
     {
-        // Automatically set the correct starting state when the game launches
+        // Automatically default to the main menu view when the game launches
         OpenMainpanel();
     }
 
-    // Call this from your Chat button
     public void OpenChatPanel()
     {
-        SwitchPanel(chatPanel);
+        SetMenuButtonsActive(false);
+        CloseAllPanels();
+        chatPanel.SetActive(true);
     }
 
-    // Call this from your Vergaderen button
     public void OpenVergaderenPanel()
     {
-        SwitchPanel(vergaderenPanel);
+        SetMenuButtonsActive(false);
+        CloseAllPanels();
+        vergaderenPanel.SetActive(true);
     }
 
-    // Call this from your Bestanden button
     public void OpenBestandenPanel()
     {
-        SwitchPanel(bestandenPanel);
+        SetMenuButtonsActive(false);
+        CloseAllPanels();
+        bestandenPanel.SetActive(true);
     }
 
-    // Call this from your Outlook button
     public void OpenOutlookPanel()
     {
-        SwitchPanel(outlookPanel);
+        SetMenuButtonsActive(false);
+        CloseAllPanels();
+        outlookPanel.SetActive(true);
     }
 
-    // Call this from any "Terug" (Back) button
     public void OpenMainpanel()
     {
-        if (MainPanel != null) MainPanel.SetActive(true);
-        if (buttonContainer != null) buttonContainer.SetActive(true);
-
-        chatPanel.SetActive(false);
-        vergaderenPanel.SetActive(false);
-        bestandenPanel.SetActive(false);
-        outlookPanel.SetActive(false);
+        // Show all main menu buttons and hide all sub-pages
+        SetMenuButtonsActive(true);
+        CloseAllPanels();
     }
 
-    private void SwitchPanel(GameObject targetPanel)
+    private void SetMenuButtonsActive(bool isActive)
     {
-        // Keep MainPanel active so the background/frame stays, but hide the buttons
-        if (MainPanel != null) MainPanel.SetActive(true);
-        if (buttonContainer != null) buttonContainer.SetActive(false);
-        
-        // Turn off all detail panels first
-        chatPanel.SetActive(false);
-        vergaderenPanel.SetActive(false);
-        bestandenPanel.SetActive(false);
-        outlookPanel.SetActive(false);
+        if (chatButton != null) chatButton.SetActive(isActive);
+        if (vergaderenButton != null) vergaderenButton.SetActive(isActive);
+        if (bestandenButton != null) bestandenButton.SetActive(isActive);
+        if (outlookButton != null) outlookButton.SetActive(isActive);
+    }
 
-        // Turn on the selected target panel
-        targetPanel.SetActive(true);
+    private void CloseAllPanels()
+    {
+        if (chatPanel != null) chatPanel.SetActive(false);
+        if (vergaderenPanel != null) vergaderenPanel.SetActive(false);
+        if (bestandenPanel != null) bestandenPanel.SetActive(false);
+        if (outlookPanel != null) outlookPanel.SetActive(false);
     }
 }
