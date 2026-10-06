@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/Scenes/TestUI.unity
     guid: cf0994e8e9c9a204d9819ad41e910b8b
   - enabled: 1
+    path: Assets/Scenes/Teams.unity
+    guid: bf9154e02dae7074294d665a89f3dba0
+  - enabled: 1
     path: Assets/Scenes/ThomasScene.unity
     guid: 6d8bd39d6040466428a7e78e7280cacc
   - enabled: 1

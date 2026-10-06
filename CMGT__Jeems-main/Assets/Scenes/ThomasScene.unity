@@ -2389,12 +2389,12 @@ MonoBehaviour:
   mainList:
     containerName: Hoofdlijst
     items:
-    - itemName: "Financi\xEBn"
+    - itemName: Basisdocumenten van en over onze organisatie
       type: 1
       kanVerwijderen: 0
       kanHernoemen: 0
       verschijnVertraging: 0
-      pdfPath: 
+      pdfPath: https://intranet.eemsdelta.nl/umbraco/organisatie/basisdocumenten-van-en-over-onze-organisatie/
       categorieNaam: Geld
       categorieKleur: {r: 0, g: 0, b: 0, a: 0}
       targetContainer:
@@ -2459,50 +2459,64 @@ MonoBehaviour:
       isVirus: 0
       typeVirus: 0
       isZichtbaar: 0
-    - itemName: Geo Data
+    - itemName: Organogram
       type: 1
       kanVerwijderen: 0
       kanHernoemen: 0
       verschijnVertraging: 0
-      pdfPath: 
-      categorieNaam: Team GEO
+      pdfPath: https://intranet.eemsdelta.nl/umbraco/a-tot-en-met-z/organogram//
+      categorieNaam: Geld
       categorieKleur: {r: 0, g: 0, b: 0, a: 0}
       targetContainer:
-        containerName: Geodata
+        containerName: Financien
         items:
-        - itemName: Overige Bestanden
-          type: 0
-          kanVerwijderen: 0
+        - itemName: Fiscaal Term 2025 (Verouderd)
+          type: 1
+          kanVerwijderen: 1
           kanHernoemen: 0
           verschijnVertraging: 0
           pdfPath: 
-          categorieNaam: Team GEO
+          categorieNaam: 
           categorieKleur: {r: 0, g: 0, b: 0, a: 0}
           targetContainer:
-            containerName: overigebestanden
-            items:
-            - itemName: Fiscaal Term 2025 (Nieuw)
-              type: 1
-              kanVerwijderen: 0
-              kanHernoemen: 0
-              verschijnVertraging: 0
-              pdfPath: 
-              categorieNaam: 
-              categorieKleur: {r: 0, g: 0, b: 0, a: 0}
-              targetContainer:
-                containerName: 
-                items: []
-              isVirus: 0
-              typeVirus: 0
-              isZichtbaar: 0
+            containerName: 
+            items: []
           isVirus: 0
           typeVirus: 0
           isZichtbaar: 0
-        - itemName: Virus!
+        - itemName: Fiscaal Term 2025
           type: 1
           kanVerwijderen: 1
-          kanHernoemen: 1
-          verschijnVertraging: 60
+          kanHernoemen: 0
+          verschijnVertraging: 0
+          pdfPath: 
+          categorieNaam: 
+          categorieKleur: {r: 0, g: 0, b: 0, a: 0}
+          targetContainer:
+            containerName: 
+            items: []
+          isVirus: 0
+          typeVirus: 0
+          isZichtbaar: 0
+        - itemName: Fiscaal Term 2026
+          type: 1
+          kanVerwijderen: 1
+          kanHernoemen: 0
+          verschijnVertraging: 0
+          pdfPath: 
+          categorieNaam: 
+          categorieKleur: {r: 0, g: 0, b: 0, a: 0}
+          targetContainer:
+            containerName: 
+            items: []
+          isVirus: 0
+          typeVirus: 0
+          isZichtbaar: 0
+        - itemName: Fiscaal Term 2027
+          type: 1
+          kanVerwijderen: 1
+          kanHernoemen: 0
+          verschijnVertraging: 0
           pdfPath: 
           categorieNaam: 
           categorieKleur: {r: 0, g: 0, b: 0, a: 0}
@@ -2510,12 +2524,26 @@ MonoBehaviour:
             containerName: 
             items: []
           isVirus: 1
-          typeVirus: 0
+          typeVirus: 2
           isZichtbaar: 0
-        - itemName: Rapport
+      isVirus: 0
+      typeVirus: 0
+      isZichtbaar: 0
+    - itemName: Digitale toegankelijkheid
+      type: 1
+      kanVerwijderen: 0
+      kanHernoemen: 0
+      verschijnVertraging: 0
+      pdfPath: 'https://intranet.eemsdelta.nl/umbraco/a-tot-en-met-z/digitale-toegankelijkheid/ '
+      categorieNaam: Geld
+      categorieKleur: {r: 0, g: 0, b: 0, a: 0}
+      targetContainer:
+        containerName: Financien
+        items:
+        - itemName: Fiscaal Term 2025 (Verouderd)
           type: 1
           kanVerwijderen: 1
-          kanHernoemen: 1
+          kanHernoemen: 0
           verschijnVertraging: 0
           pdfPath: 
           categorieNaam: 
@@ -2526,164 +2554,10 @@ MonoBehaviour:
           isVirus: 0
           typeVirus: 0
           isZichtbaar: 0
-      isVirus: 0
-      typeVirus: 0
-      isZichtbaar: 0
-    - itemName: Jeems Onboarding
-      type: 1
-      kanVerwijderen: 0
-      kanHernoemen: 0
-      verschijnVertraging: 0
-      pdfPath: 
-      categorieNaam: Default
-      categorieKleur: {r: 0, g: 0, b: 0, a: 0}
-      targetContainer:
-        containerName: OnboardingJeems
-        items:
-        - itemName: Jeems Virus Folder
-          type: 0
-          kanVerwijderen: 0
-          kanHernoemen: 0
-          verschijnVertraging: 0
-          pdfPath: 
-          categorieNaam: Bijzonder
-          categorieKleur: {r: 0, g: 0, b: 0, a: 0}
-          targetContainer:
-            containerName: 
-            items:
-            - itemName: Virus!
-              type: 1
-              kanVerwijderen: 0
-              kanHernoemen: 0
-              verschijnVertraging: 0
-              pdfPath: 
-              categorieNaam: 
-              categorieKleur: {r: 0, g: 0, b: 0, a: 0}
-              targetContainer:
-                containerName: 
-                items: []
-              isVirus: 1
-              typeVirus: 1
-              isZichtbaar: 0
-          isVirus: 0
-          typeVirus: 0
-          isZichtbaar: 0
-        - itemName: TopDesk
-          type: 1
-          kanVerwijderen: 0
-          kanHernoemen: 1
-          verschijnVertraging: 0
-          pdfPath: 
-          categorieNaam: Bijzonder
-          categorieKleur: {r: 0, g: 0, b: 0, a: 0}
-          targetContainer:
-            containerName: 
-            items: []
-          isVirus: 0
-          typeVirus: 0
-          isZichtbaar: 0
-        - itemName: Teams
-          type: 1
-          kanVerwijderen: 0
-          kanHernoemen: 1
-          verschijnVertraging: 0
-          pdfPath: 
-          categorieNaam: Bijzonder
-          categorieKleur: {r: 0, g: 0, b: 0, a: 0}
-          targetContainer:
-            containerName: 
-            items: []
-          isVirus: 0
-          typeVirus: 0
-          isZichtbaar: 0
-        - itemName: Documenten en Folders
-          type: 1
-          kanVerwijderen: 0
-          kanHernoemen: 1
-          verschijnVertraging: 0
-          pdfPath: 
-          categorieNaam: Bijzonder
-          categorieKleur: {r: 0, g: 0, b: 0, a: 0}
-          targetContainer:
-            containerName: 
-            items: []
-          isVirus: 0
-          typeVirus: 0
-          isZichtbaar: 0
-        - itemName: Jeems Chatbot
-          type: 1
-          kanVerwijderen: 0
-          kanHernoemen: 1
-          verschijnVertraging: 0
-          pdfPath: 
-          categorieNaam: Bijzonder
-          categorieKleur: {r: 0, g: 0, b: 0, a: 0}
-          targetContainer:
-            containerName: 
-            items: []
-          isVirus: 0
-          typeVirus: 0
-          isZichtbaar: 0
-        - itemName: SCMI
-          type: 1
-          kanVerwijderen: 0
-          kanHernoemen: 1
-          verschijnVertraging: 0
-          pdfPath: 
-          categorieNaam: Bijzonder
-          categorieKleur: {r: 0, g: 0, b: 0, a: 0}
-          targetContainer:
-            containerName: 
-            items: []
-          isVirus: 0
-          typeVirus: 0
-          isZichtbaar: 0
-        - itemName: JeemsBestand
-          type: 1
-          kanVerwijderen: 0
-          kanHernoemen: 1
-          verschijnVertraging: 0
-          pdfPath: 
-          categorieNaam: Bijzonder
-          categorieKleur: {r: 0, g: 0, b: 0, a: 0}
-          targetContainer:
-            containerName: 
-            items: []
-          isVirus: 0
-          typeVirus: 0
-          isZichtbaar: 0
-      isVirus: 0
-      typeVirus: 0
-      isZichtbaar: 0
-    - itemName: JeemsFolder
-      type: 1
-      kanVerwijderen: 0
-      kanHernoemen: 0
-      verschijnVertraging: 0
-      pdfPath: 
-      categorieNaam: Default
-      categorieKleur: {r: 0, g: 0, b: 0, a: 0}
-      targetContainer:
-        containerName: JeemsFolder
-        items: []
-      isVirus: 0
-      typeVirus: 0
-      isZichtbaar: 0
-    - itemName: Eems
-      type: 1
-      kanVerwijderen: 0
-      kanHernoemen: 0
-      verschijnVertraging: 0
-      pdfPath: 
-      categorieNaam: Default
-      categorieKleur: {r: 0, g: 0, b: 0, a: 0}
-      targetContainer:
-        containerName: EemsFolder
-        items:
-        - itemName: Boten
+        - itemName: Fiscaal Term 2025
           type: 1
           kanVerwijderen: 1
-          kanHernoemen: 1
+          kanHernoemen: 0
           verschijnVertraging: 0
           pdfPath: 
           categorieNaam: 
@@ -2694,10 +2568,10 @@ MonoBehaviour:
           isVirus: 0
           typeVirus: 0
           isZichtbaar: 0
-        - itemName: Delta
+        - itemName: Fiscaal Term 2026
           type: 1
           kanVerwijderen: 1
-          kanHernoemen: 1
+          kanHernoemen: 0
           verschijnVertraging: 0
           pdfPath: 
           categorieNaam: 
@@ -2708,10 +2582,38 @@ MonoBehaviour:
           isVirus: 0
           typeVirus: 0
           isZichtbaar: 0
-        - itemName: Onderzoek (Nieuw)
+        - itemName: Fiscaal Term 2027
           type: 1
-          kanVerwijderen: 0
-          kanHernoemen: 1
+          kanVerwijderen: 1
+          kanHernoemen: 0
+          verschijnVertraging: 0
+          pdfPath: 
+          categorieNaam: 
+          categorieKleur: {r: 0, g: 0, b: 0, a: 0}
+          targetContainer:
+            containerName: 
+            items: []
+          isVirus: 1
+          typeVirus: 2
+          isZichtbaar: 0
+      isVirus: 0
+      typeVirus: 0
+      isZichtbaar: 0
+    - itemName: Handboek Digitaal
+      type: 1
+      kanVerwijderen: 0
+      kanHernoemen: 0
+      verschijnVertraging: 0
+      pdfPath: 'https://intranet.eemsdelta.nl/umbraco/a-tot-en-met-z/digitale-toegankelijkheid/ '
+      categorieNaam: Geld
+      categorieKleur: {r: 0, g: 0, b: 0, a: 0}
+      targetContainer:
+        containerName: Financien
+        items:
+        - itemName: Fiscaal Term 2025 (Verouderd)
+          type: 1
+          kanVerwijderen: 1
+          kanHernoemen: 0
           verschijnVertraging: 0
           pdfPath: 
           categorieNaam: 
@@ -2722,55 +2624,13 @@ MonoBehaviour:
           isVirus: 0
           typeVirus: 0
           isZichtbaar: 0
-      isVirus: 0
-      typeVirus: 0
-      isZichtbaar: 0
-    - itemName: Emelt
-      type: 1
-      kanVerwijderen: 1
-      kanHernoemen: 0
-      verschijnVertraging: 0
-      pdfPath: 
-      categorieNaam: Default
-      categorieKleur: {r: 0, g: 0, b: 0, a: 0}
-      targetContainer:
-        containerName: OnboardingJeems
-        items:
-        - itemName: Jeems Virus Folder
-          type: 0
-          kanVerwijderen: 0
+        - itemName: Fiscaal Term 2025
+          type: 1
+          kanVerwijderen: 1
           kanHernoemen: 0
           verschijnVertraging: 0
           pdfPath: 
-          categorieNaam: Bijzonder
-          categorieKleur: {r: 0, g: 0, b: 0, a: 0}
-          targetContainer:
-            containerName: 
-            items:
-            - itemName: Virus!
-              type: 1
-              kanVerwijderen: 0
-              kanHernoemen: 0
-              verschijnVertraging: 0
-              pdfPath: 
-              categorieNaam: 
-              categorieKleur: {r: 0, g: 0, b: 0, a: 0}
-              targetContainer:
-                containerName: 
-                items: []
-              isVirus: 1
-              typeVirus: 1
-              isZichtbaar: 0
-          isVirus: 0
-          typeVirus: 0
-          isZichtbaar: 0
-        - itemName: TopDesk
-          type: 1
-          kanVerwijderen: 0
-          kanHernoemen: 1
-          verschijnVertraging: 0
-          pdfPath: 
-          categorieNaam: Bijzonder
+          categorieNaam: 
           categorieKleur: {r: 0, g: 0, b: 0, a: 0}
           targetContainer:
             containerName: 
@@ -2778,125 +2638,13 @@ MonoBehaviour:
           isVirus: 0
           typeVirus: 0
           isZichtbaar: 0
-        - itemName: Teams
+        - itemName: Fiscaal Term 2026
           type: 1
-          kanVerwijderen: 0
-          kanHernoemen: 1
-          verschijnVertraging: 0
-          pdfPath: 
-          categorieNaam: Bijzonder
-          categorieKleur: {r: 0, g: 0, b: 0, a: 0}
-          targetContainer:
-            containerName: 
-            items: []
-          isVirus: 0
-          typeVirus: 0
-          isZichtbaar: 0
-        - itemName: Documenten en Folders
-          type: 1
-          kanVerwijderen: 0
-          kanHernoemen: 1
-          verschijnVertraging: 0
-          pdfPath: 
-          categorieNaam: Bijzonder
-          categorieKleur: {r: 0, g: 0, b: 0, a: 0}
-          targetContainer:
-            containerName: 
-            items: []
-          isVirus: 0
-          typeVirus: 0
-          isZichtbaar: 0
-        - itemName: Jeems Chatbot
-          type: 1
-          kanVerwijderen: 0
-          kanHernoemen: 1
-          verschijnVertraging: 0
-          pdfPath: 
-          categorieNaam: Bijzonder
-          categorieKleur: {r: 0, g: 0, b: 0, a: 0}
-          targetContainer:
-            containerName: 
-            items: []
-          isVirus: 0
-          typeVirus: 0
-          isZichtbaar: 0
-        - itemName: SCMI
-          type: 1
-          kanVerwijderen: 0
-          kanHernoemen: 1
-          verschijnVertraging: 0
-          pdfPath: 
-          categorieNaam: Bijzonder
-          categorieKleur: {r: 0, g: 0, b: 0, a: 0}
-          targetContainer:
-            containerName: 
-            items: []
-          isVirus: 0
-          typeVirus: 0
-          isZichtbaar: 0
-        - itemName: JeemsBestand
-          type: 1
-          kanVerwijderen: 0
-          kanHernoemen: 1
-          verschijnVertraging: 0
-          pdfPath: 
-          categorieNaam: Bijzonder
-          categorieKleur: {r: 0, g: 0, b: 0, a: 0}
-          targetContainer:
-            containerName: 
-            items: []
-          isVirus: 0
-          typeVirus: 0
-          isZichtbaar: 0
-      isVirus: 0
-      typeVirus: 0
-      isZichtbaar: 0
-    - itemName: Sjabloon 2
-      type: 1
-      kanVerwijderen: 0
-      kanHernoemen: 0
-      verschijnVertraging: 0
-      pdfPath: 
-      categorieNaam: Default
-      categorieKleur: {r: 0, g: 0, b: 0, a: 0}
-      targetContainer:
-        containerName: OnboardingJeems
-        items:
-        - itemName: Jeems Virus Folder
-          type: 0
-          kanVerwijderen: 0
+          kanVerwijderen: 1
           kanHernoemen: 0
           verschijnVertraging: 0
           pdfPath: 
-          categorieNaam: Bijzonder
-          categorieKleur: {r: 0, g: 0, b: 0, a: 0}
-          targetContainer:
-            containerName: 
-            items:
-            - itemName: Virus!
-              type: 1
-              kanVerwijderen: 0
-              kanHernoemen: 0
-              verschijnVertraging: 0
-              pdfPath: 
-              categorieNaam: 
-              categorieKleur: {r: 0, g: 0, b: 0, a: 0}
-              targetContainer:
-                containerName: 
-                items: []
-              isVirus: 1
-              typeVirus: 1
-              isZichtbaar: 0
-          isVirus: 0
-          typeVirus: 0
-          isZichtbaar: 0
-        - itemName: TopDesk
-          type: 1
-          kanVerwijderen: 0
-          kanHernoemen: 1
-          verschijnVertraging: 0
-          pdfPath: 
-          categorieNaam: Bijzonder
+          categorieNaam: 
           categorieKleur: {r: 0, g: 0, b: 0, a: 0}
           targetContainer:
             containerName: 
@@ -2904,201 +2652,19 @@ MonoBehaviour:
           isVirus: 0
           typeVirus: 0
           isZichtbaar: 0
-        - itemName: Teams
+        - itemName: Fiscaal Term 2027
           type: 1
-          kanVerwijderen: 0
-          kanHernoemen: 1
-          verschijnVertraging: 0
-          pdfPath: 
-          categorieNaam: Bijzonder
-          categorieKleur: {r: 0, g: 0, b: 0, a: 0}
-          targetContainer:
-            containerName: 
-            items: []
-          isVirus: 0
-          typeVirus: 0
-          isZichtbaar: 0
-        - itemName: Documenten en Folders
-          type: 1
-          kanVerwijderen: 0
-          kanHernoemen: 1
-          verschijnVertraging: 0
-          pdfPath: 
-          categorieNaam: Bijzonder
-          categorieKleur: {r: 0, g: 0, b: 0, a: 0}
-          targetContainer:
-            containerName: 
-            items: []
-          isVirus: 0
-          typeVirus: 0
-          isZichtbaar: 0
-        - itemName: Jeems Chatbot
-          type: 1
-          kanVerwijderen: 0
-          kanHernoemen: 1
-          verschijnVertraging: 0
-          pdfPath: 
-          categorieNaam: Bijzonder
-          categorieKleur: {r: 0, g: 0, b: 0, a: 0}
-          targetContainer:
-            containerName: 
-            items: []
-          isVirus: 0
-          typeVirus: 0
-          isZichtbaar: 0
-        - itemName: SCMI
-          type: 1
-          kanVerwijderen: 0
-          kanHernoemen: 1
-          verschijnVertraging: 0
-          pdfPath: 
-          categorieNaam: Bijzonder
-          categorieKleur: {r: 0, g: 0, b: 0, a: 0}
-          targetContainer:
-            containerName: 
-            items: []
-          isVirus: 0
-          typeVirus: 0
-          isZichtbaar: 0
-        - itemName: JeemsBestand
-          type: 1
-          kanVerwijderen: 0
-          kanHernoemen: 1
-          verschijnVertraging: 0
-          pdfPath: 
-          categorieNaam: Bijzonder
-          categorieKleur: {r: 0, g: 0, b: 0, a: 0}
-          targetContainer:
-            containerName: 
-            items: []
-          isVirus: 0
-          typeVirus: 0
-          isZichtbaar: 0
-      isVirus: 0
-      typeVirus: 0
-      isZichtbaar: 0
-    - itemName: Sjabloon 1
-      type: 1
-      kanVerwijderen: 0
-      kanHernoemen: 0
-      verschijnVertraging: 0
-      pdfPath: 
-      categorieNaam: Default
-      categorieKleur: {r: 0, g: 0, b: 0, a: 0}
-      targetContainer:
-        containerName: OnboardingJeems
-        items:
-        - itemName: Jeems Virus Folder
-          type: 0
-          kanVerwijderen: 0
+          kanVerwijderen: 1
           kanHernoemen: 0
           verschijnVertraging: 0
           pdfPath: 
-          categorieNaam: Bijzonder
-          categorieKleur: {r: 0, g: 0, b: 0, a: 0}
-          targetContainer:
-            containerName: 
-            items:
-            - itemName: Virus!
-              type: 1
-              kanVerwijderen: 0
-              kanHernoemen: 0
-              verschijnVertraging: 0
-              pdfPath: 
-              categorieNaam: 
-              categorieKleur: {r: 0, g: 0, b: 0, a: 0}
-              targetContainer:
-                containerName: 
-                items: []
-              isVirus: 1
-              typeVirus: 1
-              isZichtbaar: 0
-          isVirus: 0
-          typeVirus: 0
-          isZichtbaar: 0
-        - itemName: TopDesk
-          type: 1
-          kanVerwijderen: 0
-          kanHernoemen: 1
-          verschijnVertraging: 0
-          pdfPath: 
-          categorieNaam: Bijzonder
+          categorieNaam: 
           categorieKleur: {r: 0, g: 0, b: 0, a: 0}
           targetContainer:
             containerName: 
             items: []
-          isVirus: 0
-          typeVirus: 0
-          isZichtbaar: 0
-        - itemName: Teams
-          type: 1
-          kanVerwijderen: 0
-          kanHernoemen: 1
-          verschijnVertraging: 0
-          pdfPath: 
-          categorieNaam: Bijzonder
-          categorieKleur: {r: 0, g: 0, b: 0, a: 0}
-          targetContainer:
-            containerName: 
-            items: []
-          isVirus: 0
-          typeVirus: 0
-          isZichtbaar: 0
-        - itemName: Documenten en Folders
-          type: 1
-          kanVerwijderen: 0
-          kanHernoemen: 1
-          verschijnVertraging: 0
-          pdfPath: 
-          categorieNaam: Bijzonder
-          categorieKleur: {r: 0, g: 0, b: 0, a: 0}
-          targetContainer:
-            containerName: 
-            items: []
-          isVirus: 0
-          typeVirus: 0
-          isZichtbaar: 0
-        - itemName: Jeems Chatbot
-          type: 1
-          kanVerwijderen: 0
-          kanHernoemen: 1
-          verschijnVertraging: 0
-          pdfPath: 
-          categorieNaam: Bijzonder
-          categorieKleur: {r: 0, g: 0, b: 0, a: 0}
-          targetContainer:
-            containerName: 
-            items: []
-          isVirus: 0
-          typeVirus: 0
-          isZichtbaar: 0
-        - itemName: SCMI
-          type: 1
-          kanVerwijderen: 0
-          kanHernoemen: 1
-          verschijnVertraging: 0
-          pdfPath: 
-          categorieNaam: Bijzonder
-          categorieKleur: {r: 0, g: 0, b: 0, a: 0}
-          targetContainer:
-            containerName: 
-            items: []
-          isVirus: 0
-          typeVirus: 0
-          isZichtbaar: 0
-        - itemName: JeemsBestand
-          type: 1
-          kanVerwijderen: 0
-          kanHernoemen: 1
-          verschijnVertraging: 0
-          pdfPath: 
-          categorieNaam: Bijzonder
-          categorieKleur: {r: 0, g: 0, b: 0, a: 0}
-          targetContainer:
-            containerName: 
-            items: []
-          isVirus: 0
-          typeVirus: 0
+          isVirus: 1
+          typeVirus: 2
           isZichtbaar: 0
       isVirus: 0
       typeVirus: 0

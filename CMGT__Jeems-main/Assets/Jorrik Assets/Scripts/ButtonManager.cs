@@ -15,18 +15,18 @@ public class ButtonManager : MonoBehaviour
     }
     public void LoadMainMenu()
     {
+        Debug.Log("LoadMainMenu clicked!");
         SceneManager.LoadScene("StartMenu");
     }
     public void LoadTeamsTraining()
     {
-        SceneManager.LoadScene("TeamsTraining");
+        SceneManager.LoadScene("Teams");
     }
     public void Organisatiekennisload()
     {
         SceneManager.LoadScene("Organisatiekennis");
     }
 
-    
     public void OpenLink(string url)
     {
         Application.OpenURL(url);
